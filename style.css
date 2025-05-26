@@ -1,0 +1,40 @@
+
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #26006a;
+  color: #ccc;
+  text-align: center;
+  margin: 20px;
+}
+h1 {
+  color: white;
+  font-size: 2.5em;
+}
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 80%;
+  color: white;
+}
+th, td {
+  padding: 10px;
+}
+th {
+  color: #b6a7f4;
+}
+td:nth-child(1) {
+  color: #4db8ff;
+}
+td:nth-child(2) {
+  color: #4cb562;
+}
+button {
+  background-color: #9a4df9;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+}
+#firma {
+  font-size: 0.85em;
+  color: #888;
+}

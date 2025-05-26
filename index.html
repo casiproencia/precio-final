@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Precio Final Simplificado</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Precio Final</h1>
+  <p id="fecha"></p>
+  <input type="file" id="fileInput" accept="image/*" />
+  <table>
+    <thead>
+      <tr>
+        <th>Precio base</th>
+        <th>Precio con impuestos</th>
+      </tr>
+    </thead>
+    <tbody id="tablaPrecios">
+    </tbody>
+  </table>
+  <button id="saveImageBtn">Guardar como imagen</button>
+  <p id="firma">Jose Casanova F.dez</p>
+
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/tesseract.js@4.0.2/dist/tesseract.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+</body>
+</html>
